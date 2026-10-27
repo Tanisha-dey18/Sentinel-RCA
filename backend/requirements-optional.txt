@@ -1,0 +1,4 @@
+# Optional: semantic embeddings for incident similarity
+# (EMBEDDING_PROVIDER=sentence-transformers, or "auto" picks it up when installed).
+# Pulls in PyTorch (~1 GB); the default hash embedder needs nothing extra.
+sentence-transformers>=3.0
